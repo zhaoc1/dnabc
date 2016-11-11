@@ -11,7 +11,7 @@ setup(
     description='Demultiplex pooled DNA sequencing data',
     author='Kyle Bittinger',
     author_email='kylebittinger@gmail.com',
-    url='https://github.com/PennChopMicrobiomeProgram',
+    url='https://github.com/zhaoc1',
     packages=['dnabclib'],
     scripts=[
         'scripts/dnabc.py',
