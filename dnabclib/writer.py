@@ -7,8 +7,8 @@ def _get_sample_fp(self, sample):
 
 
 def _get_sample_paired_fp(self, sample):
-    fn1 = "PCMP_%s_R1%s" % (sample.name, self.ext)
-    fn2 = "PCMP_%s_R2%s" % (sample.name, self.ext)
+    fn1 = "%s_R1%s" % (sample.name, self.ext)
+    fn2 = "%s_R2%s" % (sample.name, self.ext)
     return (
         os.path.join(self.output_dir, fn1),
         os.path.join(self.output_dir, fn2))
